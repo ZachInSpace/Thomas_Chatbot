@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning",
+        "Good afternoon",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hey!",
+        "Hello, thanks for visiting",
+        "Hi there, what can I help you with?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "dealer",
+      "patterns": [
+        "I'm a dealer", "How do I become a dealer", "Can I stock your product?",
+        "I would like to become a dealer", "I would like to stock your product",
+        "I have a store and would like to order from you"
+      ],
+      "responses": [
+        "For dealer inquiries please call; 1-800-667-8247 or e-mail us at; sales@vistarailings.com."
+      ]
+
+    },
+    {
+      "tag": "human",
+      "patterns": [
+        "Give me a human",
+        "Give me an agent",
+        "I dont't want to speak with a robot",
+        "I don't want to speak with a bot!",
+        "No Robots",
+        "No bots"
+      ],
+      "responses": [
+        "To connect with a Vista representative please either call; 1-800-667-8247 or e-mail us at; sales@vistarailings.com"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting!",
+        "Hope you have a nice day",
+        "Bye for now! I hope I was able to address all your concerns."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "rude",
+      "patterns": ["Fuck you", "Asshole", "Are you stupid?", "Do you even know anything", "Piece of shit", "Are you dumb", "What's wrong with you", "You're a moron", "You're stupid", "You're dumb"],
+      "responses": ["I feel maybe it would be better if you were to speak with a different representative. Please give us a call at; 1-800-667-8247 or e-mail us at; sales@vistarailings.com, hopefully one of my teammates is better able to resolve this issue.",
+      "I'm sorry I haven't been able to appropriately help you. Please give us a call at; 1-800-667-8247 or e-mail us at; sales@vistarailings.com, hopefully one of my teammates is better able to resolve this issue.",
+      "It seems we may not be the best fit. Please give us a call at; 1-800-667-8247 or e-mail us at; sales@vistarailings.com, hopefully one of my teammates is better able to resolve this issue."]
+    },
+    {
+      "tag": "Where to Buy",
+      "patterns": ["Where can I buy your railings?", "Where to buy?", "Where are dealers?",
+        "I can't find a retailer", "I can't find a store", "Where can I purchase?"],
+      "responses": ["Check out our 'Where to Buy' section \n https://www.vistarailings.com/where-to-buy \n "]
+    }
+  ]
+}
